@@ -1,0 +1,109 @@
+body{
+	
+	padding-top:60px;
+}
+
+.classe_img_con_didascalia { 
+
+     float: right; 
+
+     position: relative; 
+
+     overflow: hidden; 
+
+}
+
+  
+
+.classe_img_con_didascalia p { 
+
+     position: absolute; 
+
+     left: 0; 
+
+     bottom: 0; 
+
+     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7); 
+
+     color: #fff; 
+
+     display: none; 
+
+     width: 100%; 
+
+     padding: 10px; 
+	 
+ } 
+
+
+.classe_img_con_didascalia:hover p { 
+
+     display:block; 
+
+ }
+ 
+ 
+ 
+ 
+ 
+ .classe_img_con_didascalia_left { 
+
+     float: left; 
+
+     position: relative; 
+
+     overflow: hidden; 
+
+}
+
+  
+
+.classe_img_con_didascalia_left p { 
+
+     position: absolute; 
+
+     left: 0; 
+
+     bottom: 0; 
+
+     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7); 
+
+     color: #fff; 
+
+     display: none; 
+
+     width: 100%; 
+
+     padding: 10px; 
+	 
+	 
+ } 
+
+
+.classe_img_con_didascalia_left:hover p { 
+
+     display:block; 
+
+ }
+
+
+.is{
+  background-color:silver;
+}
+
+
+
+.item {
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+
+#copyRightDiv{
+bottom: 0;
+left: 0;
+width: 100%;
+background-color: grey;
+color: white;
+text-align: center;
+}
